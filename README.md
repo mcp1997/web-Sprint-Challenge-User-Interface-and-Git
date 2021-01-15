@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+HTML is a markup language, that is to say it's purpose is to add text and images to a webpage, and give MEANING to it. That being said, HTML generally is not used to format content, CSS would be used for that. In other words, HTML is a great foundation that tells search engines what to look for, but it's not meant to look pretty.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+display:block displays things as block-level elements that don't like to be next to each other and stack. display:inline allows elements to be on the same line next to each other.
 
 3. What are the 4 areas of the box model?
 
+margin > border > padding > content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+the cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+git allows you to create branches off of a project, so that individual devs can edit the project without affecting the main branch. Updates can then be pushed and reviewed by all devs, and when approved can be merged into the main branch.
+This keeps everything organized and documented. At all times, devs can reference changes that were made and make sure the main branch remains clean and functioning.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
